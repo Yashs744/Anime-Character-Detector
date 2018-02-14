@@ -36,6 +36,7 @@ I freezed the VGG19 Model till __block5_pool__ layer and added `GlobalAveragePoo
                               Trainable params: 164,482
                               Non-trainable params: 20,024,384
                               _________________________________________________________________
+> Download the Trainined [Model](https://drive.google.com/open?id=1oHLyBF4bIOTZDY3Ou75tDgiPKw0SZzGG)
 
 ## Training & Testing:
 **Loss Function:** Binary CrossEntropy<br>
@@ -72,3 +73,4 @@ I create a function to make predictions, it takes image as an input and returns 
     <img src = "https://github.com/Yashs744/Anime-Character-Detector/blob/master/images/Test_3.png", alt = "Test 3"/>
   <img src = "https://github.com/Yashs744/Anime-Character-Detector/blob/master/images/Test_2.png", alt = "Test 3"/>
   </p>
+
