@@ -16,25 +16,25 @@ I collected a total of 820 medium size images using google and other resources t
 Pre-Trained VGG19 Model with ImageNet Weights.
 I freezed the VGG19 Model till __block5_pool__ layer and added `GlobalAveragePooling`, `Dropout` and `Dense` Layers.
 
-                              Layer (type)                 Output Shape              Param #   
-                              =================================================================
-                              global_avg_pooling (GlobalAv (None, 512)               0         
-                              _________________________________________________________________
-                              dropout_1 (Dropout)          (None, 512)               0         
-                              _________________________________________________________________
-                              dense_1 (Dense)              (None, 256)               131328    
-                              _________________________________________________________________
-                              dropout_2 (Dropout)          (None, 256)               0         
-                              _________________________________________________________________
-                              dense_2 (Dense)              (None, 128)               32896     
-                              _________________________________________________________________
-                              dropout_3 (Dropout)          (None, 128)               0         
-                              _________________________________________________________________
-                              output (Dense)               (None, 2)                 258       
-                              =================================================================
-                              Total params: 20,188,866
-                              Trainable params: 164,482
-                              Non-trainable params: 20,024,384
+    Layer (type)                 Output Shape              Param #   
+    =================================================================
+    global_avg_pooling (GlobalAv (None, 512)               0         
+    _________________________________________________________________
+    dropout_1 (Dropout)          (None, 512)               0         
+    _________________________________________________________________
+    dense_1 (Dense)              (None, 256)               131328    
+    _________________________________________________________________
+    dropout_2 (Dropout)          (None, 256)               0         
+    _________________________________________________________________
+    dense_2 (Dense)              (None, 128)               32896     
+    _________________________________________________________________
+    dropout_3 (Dropout)          (None, 128)               0         
+    _________________________________________________________________
+    output (Dense)               (None, 2)                 258       
+    =================================================================
+    Total params: 20,188,866
+    Trainable params: 164,482
+    Non-trainable params: 20,024,384
                               _________________________________________________________________
 > Download the Trainined [Model](https://drive.google.com/open?id=1oHLyBF4bIOTZDY3Ou75tDgiPKw0SZzGG)
 
